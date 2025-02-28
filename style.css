@@ -1,299 +1,534 @@
 body {
-    padding: 0%;
-    margin: 0%;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
 
 .container1 {
-    display: flex;
-    padding-left: 5%;
+  display: flex;
+  gap: 10px;
+  padding-left: 30px;
 }
 
 .container2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 5%;
-    margin-bottom: 50px;
-    /* width: 100%; */
-
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5%;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .container2 a {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    width: 8%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-items: center;
-    border-radius: 20px;
-    text-decoration: none;
+  background-color: black;
+  width: 8%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+}
+
+.container2 a:hover {
+  color: grey;
 }
 
 .container3 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.header1 {
-    display: flex;
-    justify-content: center;
-    background-color: aliceblue;
-    width: 30%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 20px;
+.first-header {
+  background-color: aliceblue;
+  padding: 10px;
+  width: 30%;
+  border-radius: 20px;
+  margin-top: 30px;
 }
 
 .container3 h1 {
-    font-size: 60px;
-    margin-bottom: 10px;
-
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
-
-.paragraph {
-    color: grey;
-    font-size: 20px;
-    margin: 0;
-    padding-bottom: 20px;
+.container3 .paragraph {
+  color: grey;
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .container3 a {
-    font-size: 20px;
-    background-color: black;
-    color: white;
-    width: 12%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 25px;
-    text-decoration: none;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  width: 12%;
+  padding: 10px;
+  border-radius: 25px;
+  text-decoration: none;
 }
 
+.container3 a:hover {
+  color: grey;
+}
 .container4 {
-    margin-top: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
+  margin-top: 8%;
+  text-align: center;
 }
 
 .container4 h6 {
-    font-size: 15px;
-    margin-bottom: 0;
-
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .container4 h3 {
-    font-size: 50px;
-    margin-bottom: 0px;
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .container4 p {
-    color: grey;
-    margin: 0;
-    margin-bottom: 20px;
-    line-height: 1.2;
-
+  color: grey;
+  margin-bottom: 60px;
+  line-height: 1.2;
+}
+.container4 img {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 40px;
 }
 
 .container5 {
-
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .container5 h3 {
-    font-size: 30px;
-    font-weight: 700;
-    color: white;
-
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
 }
 
 .container5 p {
-    color: grey;
-    font-weight: 700;
-    margin-top: 0;
+  color: grey;
+  font-weight: 700;
+  margin-top: 0;
 }
-
 .container6 {
-    background-image: url('Background\ image\ new.png');
-    align-items: center;
-    color: white;
-    position: relative;
+  background-image: url("assets/Background\ image\ new.png");
+  align-items: center;
+  color: white;
+  position: relative;
+  width: 95%;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .numbers1 {
-    font-size: 80px;
-    color: grey;
+  font-size: 80px;
+  color: grey;
 }
 
 .numbers2 {
-    font-size: 80px;
-    color: grey;
+  font-size: 80px;
+  color: grey;
 }
 
 .numbers3 {
-    font-size: 80px;
-    color: grey;
+  font-size: 80px;
+  color: grey;
 }
 
 .numbers4 {
-    font-size: 80px;
-    color: grey;
+  font-size: 80px;
+  color: grey;
 }
 
 .reason1 {
-    display: flex;
-    align-items: center;
-    color: grey;
-    gap: 30px;
-    font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: grey;
+  gap: 30px;
+  font-size: 20px;
 }
 
 .reason2 {
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    color: white;
-
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  color: white;
 }
 
 .reason3 {
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    color: white;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  color: white;
+  gap: 10px;
 }
 
 .reason4 {
-    display: flex;
-    align-items: center;
-    color: grey;
-    gap: 10%;
-    font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: grey;
+  gap: 10%;
+  font-size: 20px;
 }
 
 .reason5 {
-    display: flex;
-    align-items: center;
-    color: grey;
-    gap: 10%;
-    font-size: 20px;
-
+  display: flex;
+  align-items: center;
+  color: grey;
+  gap: 10%;
+  font-size: 20px;
 }
 
 .reason6 {
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    color: white;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  color: white;
+  gap: 10px;
 }
 
 .reason7 {
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    color: grey;
-    gap: 15px;
-    font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  color: grey;
+  gap: 15px;
+  font-size: 20px;
 }
 
 .reason8 {
-    display: flex;
-    align-items: center;
-    color: white;
-    gap: 10px;
-
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
 }
 
 .image2 {
-
-    position: absolute;
-    left: 62%;
-    top: 22%;
+  position: absolute;
+  left: 64%;
+  top: 22%;
+  border-radius: 10px;
 }
 
-.benefit1 {
-    background-color: aliceblue;
-    color: grey;
-    font-weight: 700;
-    width: 25%;
-
+.list-of-benefits {
+  width: 95%;
+  margin: auto;
+  height: 100vh;
+  border-radius: 20px;
+  background-color: rgb(73, 15, 4);
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.benefit2 {
-    background-color: aliceblue;
-    color: grey;
-    font-weight: 700;
-    width: 25%;
+.first-benefit {
+  background-color: aliceblue;
+  color: grey;
+  font-weight: 700;
+  width: 25%;
 }
 
-.benefit3 {
-    background-color: aliceblue;
-    color: grey;
-    font-weight: 700;
-    width: 25%;
+.second-benefit {
+  background-color: aliceblue;
+  color: grey;
+  font-weight: 700;
+  width: 25%;
 }
 
-.benefits {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-bottom: 10%;
+.third-benefit {
+  background-color: aliceblue;
+  color: grey;
+  font-weight: 700;
+  width: 25%;
+}
 
+.vortipay-benefits {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 10%;
 }
 
 .benefit4 {
-    padding-left: 9%;
-    color: grey;
-    font-weight: 700;
+  padding-left: 9%;
+  color: grey;
+  font-weight: 700;
+  margin-top: 65px;
 }
-.lastparagraph{  
-    padding: 10%;
-    width: 100%;
 
+.gaming-image {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 8%;
 }
-.lastparagraph h2{
-    font-size: 50px;
+.gaming-image1 {
+  width: 50%;
+  height: 100vh;
+  border-radius: 0 10px;
 }
-.lastparagraph a{
-    background-color: black;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 10px;
-    text-decoration: none;
+.gaming-image2 {
+  width: 50%;
+  height: 100vh;
+  border-radius: 10px 0;
 }
-/* .finished{
-    display: flex;
-    align-items: center;
-} */
-.lastparagraph1 p{
+.footer-section {
+  display: flex;
+  gap: 40%;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+.lastparagraph h2 {
+  font-size: 50px;
+}
+
+.lastparagraph a {
+  background-color: black;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.lastparagraph a:hover {
+  color: grey;
+}
+
+.lastparagraph1 p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.lastparagraph1 img {
+  width: 15%;
+}
+.lastparagraph1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+/* This is the media query section */
+
+
+@media (max-width: 767px) {
+  /* Header and navigation */
+  .container1 {
+    height: 60px;
+    padding-left: 15px;
+  }
+  
+  .container1 h2 {
     font-size: 20px;
-    font-weight: 700;
-}
-.lastparagraph2{
-    position: relative;
-}
-.lastparagraph1{
-    position: absolute;
-    left: 80%;
-    bottom: 60px;
+  }
+  
+  .container1 img {
+    width: 30px;
+    height: auto;
+  }
+  
+  .container2 {
+    padding-right: 15px;
+    width: 90%;
+    margin-bottom: 15px;
+  }
+  
+  .container2 a {
+    width: auto;
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  
+  /* Hero section */
+  .container3 h1 {
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+  }
+  
+  .first-header {
+    width: 80%;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .container3 .paragraph {
+    font-size: 16px;
+    padding: 0 15px 15px;
+  }
+  
+  .container3 a {
+    font-size: 16px;
+    width: auto;
+    padding: 10px 20px;
+  }
+  
+  /* Benefits section */
+  .container4 {
+    margin-top: 40px;
+    padding: 0 15px;
+  }
+  
+  .container4 h6 {
+    font-size: 14px;
+  }
+  
+  .container4 h3 {
+    font-size: 24px;
+  }
+  
+  .container4 p {
+    margin-bottom: 30px;
+  }
+  
+  /* Why choose section */
+  .container5 h3 {
+    font-size: 24px;
+    padding: 0 15px;
+  }
+  
+  .container6 {
+    width: 90%;
+    padding: 20px 0;
+  }
+  
+  .image2 {
+    position: static;
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  /* Numbered reasons */
+  .reason1, .reason4, .reason5, .reason7 {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .reason2, .reason3, .reason6, .reason8 {
+    padding-left: 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .reason2 h3, .reason3 h3, .reason6 h3, .reason8 h3 {
+    text-align: center;
+  }
+  
+  .numbers1, .numbers2, .numbers3, .numbers4 {
+    font-size: 60px;
+    margin: 0;
+  }
+  
+  /* Benefits list */
+  .list-of-benefits {
+    height: auto;
+    padding: 20px 0 40px;
+  }
+  
+  .benefit4 {
+    padding: 0 15px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .benefit4 h3 {
+    font-size: 24px;
+  }
+  
+  .vortipay-benefits {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .first-benefit, .second-benefit, .third-benefit {
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  /* Gaming images section */
+  .gaming-image {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .gaming-image1, .gaming-image2 {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  /* Footer section */
+  .footer-section {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .lastparagraph h2 {
+    font-size: 28px;
+  }
+  
+  .lastparagraph1 {
+    flex-direction: column;
+  }
+  
+  .lastparagraph1 img {
+    width: 30%;
+  }
 }
 
+/*Small mobile screens */
+ @media (max-width: 375px) {
+  .container3 h1 {
+    font-size:24px;
+  }
+  
+  .container4 h3 {
+    font-size: 22px;
+  }
+  
+  .first-header {
+    font-size: 12px;
+  }
+  
+  .container3 .paragraph {
+    font-size: 14px;
+  }
+  
+  .lastparagraph h2 {
+    font-size: 24px;
+  }
+} 
+
+
+  
