@@ -6,6 +6,8 @@ body {
 
 .container1 {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   padding-left: 30px;
 }
@@ -21,7 +23,7 @@ body {
 }
 
 .container2 a {
-  background-color: black;
+  background-color: #64279C;
   width: 8%;
   padding: 10px;
   text-align: center;
@@ -65,7 +67,7 @@ body {
 
 .container3 a {
   font-size: 20px;
-  background-color: black;
+  background-color: #64279C;
   color: white;
   width: 12%;
   padding: 10px;
@@ -123,7 +125,7 @@ body {
   margin-top: 0;
 }
 .container6 {
-  background-image: url("assets/Background\ image\ new.png");
+  background-color: #64279C;
   align-items: center;
   color: white;
   position: relative;
@@ -157,8 +159,10 @@ body {
   display: flex;
   align-items: center;
   color: grey;
-  gap: 30px;
   font-size: 20px;
+}
+.reason1 p{
+  padding-left: 7%;
 }
 
 .reason2 {
@@ -180,16 +184,21 @@ body {
   display: flex;
   align-items: center;
   color: grey;
-  gap: 10%;
-  font-size: 20px;
+  font-size: 20px
+}
+.reason4 p{
+  padding-left: 4%;
 }
 
 .reason5 {
   display: flex;
   align-items: center;
   color: grey;
-  gap: 10%;
-  font-size: 20px;
+  font-size: 20px
+
+}
+.reason5 p{
+  padding-left: 5.3%;
 }
 
 .reason6 {
@@ -203,32 +212,37 @@ body {
 .reason7 {
   display: flex;
   align-items: center;
-  padding-left: 10%;
   color: grey;
-  gap: 15px;
   font-size: 20px;
+  padding-left: 8px;
+  gap: 30px;
+
 }
 
 .reason8 {
   display: flex;
   align-items: center;
+  padding-left: 10%;
   color: white;
   gap: 10px;
 }
 
 .image2 {
   position: absolute;
-  left: 64%;
-  top: 22%;
+  left: 65%;
+  top: 5%;
   border-radius: 10px;
+  width: 43%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .list-of-benefits {
   width: 95%;
   margin: auto;
-  height: 100vh;
+  height: 80vh;
   border-radius: 20px;
-  background-color: rgb(73, 15, 4);
+  background-color: white;
   display: flex;
   flex-direction: column;
   margin-top: 30px;
@@ -236,27 +250,36 @@ body {
 }
 
 .first-benefit {
-  background-color: aliceblue;
-  color: grey;
+  background-color: #F3F6F8;
+  color: black;
   font-weight: 700;
   width: 25%;
+  border-radius: 10px;
 }
 
 .second-benefit {
-  background-color: aliceblue;
-  color: grey;
+  background-color: #F3F6F8;
+  color: black;
   font-weight: 700;
   width: 25%;
+  border-radius: 10px;
 }
 
 .third-benefit {
-  background-color: aliceblue;
-  color: grey;
+  background-color: #F3F6F8;
+  color: black;
   font-weight: 700;
   width: 25%;
-}
+  border-radius: 10px;
+    }
 
-.vortipay-benefits {
+/* .third-benefit a{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+} */
+
+.ubisoft-benefits {
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -269,6 +292,32 @@ body {
   font-weight: 700;
   margin-top: 65px;
 }
+.benefit4 h3{
+  font-size: 48px;
+}
+.benefit4-rule{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.benefit4-rule hr{
+  width: 30%;
+}
+
+@keyframes easeInOut {
+  0% { width: 10%; }
+  50% { width: 60%; }
+  100% { width: 10%; }
+}
+
+hr {
+  width: 0%;
+  border: none;
+  height: 2px;
+  background: grey;
+  animation: easeInOut 2s ease-in-out infinite;
+}
+
 
 .gaming-image {
   display: flex;
@@ -301,7 +350,7 @@ body {
 }
 
 .lastparagraph a {
-  background-color: black;
+  background-color:#64279C;
   color: white;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -321,7 +370,8 @@ body {
 }
 
 .lastparagraph1 img {
-  width: 15%;
+  width: 80px;
+  height: 70px;
 }
 .lastparagraph1 {
   display: flex;
